@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="static/AdminLTE-3.1.0/AdminLTE-3.1.0/plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="static/AdminLTE-3.1.0/AdminLTE-3.1.0/dist/css/adminlte.min.css">
+</head>
+<body>
+    <section class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- left column -->
+            <div class="col-md-7">
+                <!-- <img src="static/img/Telangana.png"> -->
+                <img src="static/img/Delhi.jpg">
+              <!-- /.card -->
+              </div>
+            <!--/.col (left) -->
+            <!-- right column -->
+            <div class="col-md-5">
+                              <!-- jquery validation -->
+              <div class="card card-primary">
+                <div class="card-header">
+                  <h3 class="card-title">E-SEVA Registration Form</h3>
+                </div>
+                <!-- /.card-header -->
+                <!-- form start -->
+                <form id="quickForm" action="/Acknowledgement" method="POST">
+                  <div class="card-body">
+                    <div class="form-group">
+                      <label>FirstName</label>
+                      <input type="text" name="fname" class="form-control" placeholder="Enter FirstName">
+                    </div>
+                    <div class="form-group">
+                      <label>LastName</label>
+                      <input type="text" name="lname" class="form-control" placeholder="Enter LastName">
+                    </div>
+                    <div class="form-group">
+                      <label>E-mail</label>
+                      <input type="text" name="email" class="form-control" placeholder="Enter Email-ID">
+                    </div>
+                    <div class="form-group">
+                      <label>State</label>
+                      <input type="text" name="source_state" class="form-control" placeholder="Enter SourceState">
+                    </div>
+                    <div class="form-group">
+                      <label>Source</label>
+                      <input type="text" name="source" class="form-control" placeholder="Enter SourceCity">
+                    </div>
+                    <div class="form-group">
+                      <label>Destination State</label>
+                      <input type="text" name="dest-state" class="form-control" placeholder="Enter DestinationState">
+                    </div>
+                    <div class="form-group">
+                      <label>Destination</label>
+                      <input type="text" name="destination" class="form-control" placeholder="Enter DestinationCity">
+                    </div>
+                    <div class="form-group">
+                      <label>Aadhar Card No.</label>
+                      <input type="number" name="idcard" class="form-control" placeholder="Enter Aadhar Number">
+                    </div>
+                    <div class="form-group">
+                        <label>phoneNumber</label>
+                        <input type="number" name="phoneNumber" class="form-control" placeholder="Enter PhoneNumber">
+                    </div>
+                    <div class="form-group">
+                        <label>Date of Travel</label>
+                        <input type="date" name="trip" class="form-control" placeholder="Enter Date of Travel">
+                    </div>
+
+                    <div class="form-group mb-0">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" name="terms" class="custom-control-input" id="exampleCheck1">
+                        <label class="custom-control-label" for="exampleCheck1">I agree to the <a href="#">terms of service</a>.</label>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /.card-body -->
+                  <div class="card-footer">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </form>
+              </div>
+                
+            </div>
+            <!--/.col (right) -->
+          </div>
+          <!-- /.row -->
+        </div><!-- /.container-fluid -->
+      </section>
+    
+</body>
+</html>
